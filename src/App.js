@@ -17,14 +17,14 @@ class App extends React.Component {
         firstName: "Wanda",
         lastName: "Maximoff",
         phoneNumber: "(233)232-4343",
-        dob: "September 5, 1990",
+        dob: "Feburary 10, 1990",
         id: 2,
       },
       personThree: {
-        firstName: "Vison",
-        lastName: "Maximoff",
+        firstName: "Peter",
+        lastName: "Parker",
         phoneNumber: "(345)343-2321",
-        dob: "June 23, 1987",
+        dob: "August 10, 2001",
         id: 3,
       },
     };
@@ -44,6 +44,7 @@ class App extends React.Component {
             <p>First Name</p>
             <p>Last Name</p>
             <p>Phone Number</p>
+            <p>DOB</p>
             <p>ID</p>
           </div>
           <div className="container-basicInfo">
@@ -51,18 +52,21 @@ class App extends React.Component {
               firstName={this.state.person.firstName}
               lastName={this.state.person.lastName}
               phoneNumber={this.state.person.phoneNumber}
+              dob={this.state.person.dob}
               id={this.state.person.id}
             />
             <BasicInfo
               firstName={this.state.personTwo.firstName}
               lastName={this.state.personTwo.lastName}
               phoneNumber={this.state.personTwo.phoneNumber}
+              dob={this.state.personTwo.dob}
               id={this.state.personTwo.id}
             />
             <BasicInfo
               firstName={this.state.personThree.firstName}
               lastName={this.state.personThree.lastName}
               phoneNumber={this.state.personThree.phoneNumber}
+              dob={this.state.personThree.dob}
               id={this.state.personThree.id}
             />
             

@@ -25,7 +25,7 @@ border-radius: 1%;
 .information-container{
 margin:30px; 
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 
 }
 
@@ -38,12 +38,12 @@ justify-content: space-between;
 .table-title{
 display: flex;
 justify-content: space-evenly;
-font-family: 'Courier New', monospace;
+font-family: 'fantasy', 'copperplate';
 font-weight: bolder;
 font-size: 20px;
 }
 
 .container-basicInfo{
   background-color: rgba(255, 255, 255, 0.863);
-  margin: 30px;
+  margin: 10px;
 }
